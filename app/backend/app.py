@@ -124,7 +124,6 @@ def chat():
 
 def ensure_openai_token():
     if AZURE_OPENAI_KEY:
-        print("XDXD")
         return True
     else:
         global openai_token
