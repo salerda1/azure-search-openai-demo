@@ -16,8 +16,8 @@ from approaches.retrievethenread import RetrieveThenReadApproach
 from approaches.readretrieveread import ReadRetrieveReadApproach
 from approaches.readdecomposeask import ReadDecomposeAsk
 from approaches.chatreadretrieveread import ChatReadRetrieveReadApproach
-from lib.link_attatcher import LinkAttatcher
-from lib.tripadvisor import TripAdvisorClient
+from utils.link_attatcher import LinkAttatcher
+from utils.tripadvisor import TripAdvisorClient
 import search
 import storage
 
